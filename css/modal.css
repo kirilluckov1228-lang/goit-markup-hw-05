@@ -9,14 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+visibility: hidden; 
   opacity: 1;
- 
+ pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
-        поставить 
-           visibility: hidden; 
-           -pointer-events: none;
+
+
 .order-modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
