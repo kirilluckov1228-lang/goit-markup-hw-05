@@ -34,7 +34,7 @@
        0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
 }
-.order-modal_close-button{
+.order-modal-close-button{
   position: absolute;
   top: 24px;
   right: 24px;
@@ -54,12 +54,37 @@
        background-color 250ms ease-in-out,
        fill 250ms ease-in-out;
 }
-.order-modal_title{
+
+.order-modal-title{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: #2E2F42;
+  align-self: center;
 }
-.order-modal__form{
+
+.order-modal-form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
 }
-.order-modal_fieldset{
+
+.order-modal-fieldset{
+  border: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 .order-modal_textfields{
 }
 .order-modal_field{
