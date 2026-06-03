@@ -1,5 +1,5 @@
 .order-modal-overlay {
-  background-color: rgb(46, 47, 66, 0.4);
+  background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
   left: 0;
@@ -9,9 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-visibility: hidden; 
-  opacity: 1;
- pointer-events: none;
+  visibility: hidden; 
+  opacity: 0;
+  pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
 
@@ -224,7 +224,7 @@ visibility: hidden;
 .order-modal-agreement-label 
 .agreement-chckbox-wrapper {
   border-color: #404bbf;
-  background-color: #404bbf);
+  background-color: #404bbf;
 }
 
 .agreement-checkbox-icon {
@@ -262,6 +262,7 @@ visibility: hidden;
   letter-spacing: 0.04em;
   line-height: 1.5;
   border: none;
+  cursor: pointer;
   border-radius: 4px;
   padding-block: 16px;
   padding-inline: 32px;
@@ -270,7 +271,7 @@ visibility: hidden;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #ffffff;
-  transition: 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
 }
 
 .order-modal-submit-button:hover,
