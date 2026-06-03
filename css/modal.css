@@ -55,9 +55,7 @@
   width: 24px;
   height: 24px;
   background: #e7e9fc;
-}
-.close-icon{
-   fill: #2e2f42;
+  fill: #2e2f42;
     transition:
        border-color 250ms ease-in-out,
        background-color 250ms ease-in-out,
